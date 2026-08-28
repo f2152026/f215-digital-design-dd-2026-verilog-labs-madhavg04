@@ -1,10 +1,5 @@
 // tb.v
 // Testbench for ripple_adder. This file is given -- do not modify it.
-// Time gaps are wide enough to let signals settle even with delays
-// present (used for both part (a) and part (b) of this task). The second
-// stimulus vector (7+1) deliberately makes the carry ripple through all
-// three internal carry wires (c1, c2, c3) -- and once delays are in the
-// picture, you can watch that ripple happen bit by bit in the waveform.
 
 module tb;
   reg  [3:0] t_a, t_b;
