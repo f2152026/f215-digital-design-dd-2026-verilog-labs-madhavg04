@@ -1,7 +1,5 @@
 // tb.v
 // Testbench for dut.v. This file is given -- do not modify it.
-// Works unchanged regardless of which implementation is currently active
-// inside dut.v.
 
 module tb;
   reg  [3:0] t_a, t_b;

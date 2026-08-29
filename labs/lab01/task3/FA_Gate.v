@@ -1,6 +1,6 @@
 // FA_Gate.v
-// (Carried forward from Task 2.)
 // Gate-level model of a 1-bit full adder, with explicit gate delays.
+// (Copied from Task 2, part (a).)
 
 module FA_Gate(
   input  a,
