@@ -20,4 +20,5 @@ module FA_Gate(
   and #(2) (pc1, a,   b);
   xor #(2) (ps,  a,   b);
 
+
 endmodule
